@@ -1,0 +1,58 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Mukesh &amp; Raina</title>
+	<link rel="stylesheet" href="fonts/tangerine/style.css" type="text/css" />
+	<link rel="stylesheet" href="fonts/ubuntu/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link href="js/county/county.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/county/county.js"></script>
+</head>
+
+<script type="text/javascript">
+$().ready(function() {
+	$('a[href^="#"]').on('click', function(e) {
+	    e.preventDefault();
+	    var target = this.hash,
+	    $target = $(target);
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+		}, 1000, 'swing', function() {
+	        window.location.hash = target;
+	    });
+	});
+
+	$('#timeline ul li').hover(function() {
+		var id = '#' + $(this).attr('show');
+		$(id).show();
+	}, function() {
+		$('.story-details').hide();
+	});
+
+	$('#counter').county({
+		endDateTime: new Date('2016/04/18 11:00:00'),
+		reflection: false,
+		animation: 'scroll',
+		theme: 'red'
+	});
+});
+</script>
+
+<body>
+<body background ="logo.jpg">
+<div id="content">
+
+		<div id="wedding" class="slide">
+			<h2><font color="white"><font face="Monotype Corsiva">Mukesh &amp; Raina</font></font></h2>
+			<h2>18.04.2016</h2>
+			<div id="counter"></div>
+			<br>
+			<a href="Mukesh_Raina.html"><h3><font color="white">Next >> <h3></font></a>
+		</div>
+</body>
+</html>

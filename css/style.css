@@ -1,0 +1,291 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	height: 100%;
+	text-align: center;
+}
+a {
+	color: #C58;
+	text-decoration: none;
+}
+a:hover {
+	color: #888;
+}
+#menu {
+	background: #FFF;
+	height: 25px;
+	left: 0;
+	padding: 25px 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+#menu li {
+	display: inline;
+	font: 18px UbuntuCondensedRegular;
+	list-style: none;
+	margin: 0 15px;
+}
+#nav-box {
+	margin: 0 auto;
+	width: 850px;
+}
+#left-nav {
+	float: left;
+}
+#right-nav {
+	float: right;
+}
+#emblem img {
+	margin-top: -25px;
+}
+.slide {
+	min-height: 100%;
+	padding-bottom: 100px;
+	padding-top: 130px;
+	position: relative;
+}
+#wedding {
+	/*background-image:url(../img/ernadika1.jpg) !important;
+	background-size: 100%;*/
+}
+#wedding h1 {
+	color: #C58;
+	font: bold 120px TangerineBold;
+	padding-top: 5px;
+	text-shadow: 1px 1px #888;
+}
+#wedding h2 {
+	color: #FEF;
+	font: 70px UbuntuCondensedRegular;
+	text-shadow: 1px 1px #C58;
+}
+#counter {
+	margin: 0 auto;
+	margin-top: 15px;
+}
+#location {
+	/*background-image:url(../img/ernadika1-mirror.jpg) !important;
+	background-size: 100%;*/
+	/*background: #FCE;*/
+}
+.wrap {
+	margin: 0 auto;
+	width: 800px;
+}
+.location-item {
+	color: #EDE;
+	float: left;
+	font: 25px UbuntuCondensedRegular;
+	margin: 0 10px;
+	text-align: center;
+	width: 375px;
+}
+.location-item h1 {
+	color: #C58;
+	font: bold 65px TangerineBold;
+	margin-bottom: 20px;
+	text-shadow: 1px 1px #CAC;
+}
+#map {
+	background: #FFF;
+	margin-top: 30px;
+	padding: 15px;
+	
+	box-shadow: 0 0 5px #503;
+}
+.time {
+	color: #FFF;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.clear {
+	clear: both;
+}
+#about {
+	/*background-image:url(../img/ernadika1.jpg) !important;
+	background-size: 100%;*/
+
+}
+#about h1, #story h1 {
+	color: #C58;
+	font: bold 65px TangerineBold;
+	margin-bottom: 10px;
+	text-shadow: 1px 1px #AAA;
+}
+#about img {
+	background: #FFF;
+	margin-bottom: 15px;
+	padding: 5px;
+	
+	box-shadow: 0px 0px 3px #555;
+	-moz-box-shadow: 0px 0px 3px #555;
+	-webkit-box-shadow: 0px 0px 3px #555;
+}
+#mita, #label, #ata {
+	font: 20px UbuntuCondensedRegular;
+}
+#mita, #ata {
+	color: #FFF;
+	width: 290px;
+}
+#mita {
+	float: left;
+	text-align: right;
+}
+#label {
+	color: #AAA;
+	float: left;
+	margin: 0 15px;
+	text-align: center;
+	width: 180px;
+}
+#ata {
+	float: right;
+	text-align: left;
+}
+#about p {
+	margin-bottom: 10px;
+}
+#testimoni {
+	background: #C58;
+}
+#testimoni h1 {
+	color: #FEF;
+	font: bold 65px TangerineBold;
+	margin-bottom: 20px;
+	text-align: left;
+	text-shadow: 1px 1px #CAC;
+}
+#mita-testimoni, #ata-testimoni {
+	float: left;
+	width: 370px;
+}
+#mita-testimoni {
+	margin-right: 50px;
+}
+#testimoni p {
+	color: #FFF;
+	font: 18px/22px UbuntuCondensedRegular;
+	margin-bottom: 15px;
+	text-align: left;
+}
+#testimoni ol {
+	padding-left: 20px;
+	text-align: left;
+}
+#testimoni ol li {
+	color: #FFF;
+	font: 18px/20px UbuntuCondensedRegular;
+	margin-bottom: 15px;
+}
+#testimoni ol li ul {
+	margin-left: 18px;
+}
+#testimoni ol li ul li {
+	margin: 0;
+	margin-top: 10px;
+}
+#story {
+	background: #FEF;
+}
+#from-mita {
+	margin: 15px auto;
+	width: 800px;
+}
+#from-mita p {
+	color: #555;
+	font: 17px/20px UbuntuCondensedRegular;
+	margin-top: 15px;
+	text-align: left;
+}
+#from-mita p#by {
+	color: #C58;
+	font-size: 20px;
+}
+#clue {
+	color: #A35;
+	font: 15px UbuntuCondensedRegular;
+	margin-bottom: 10px;
+	margin-top: 40px;
+}
+#timeline {
+	background: url(../img/timeline.png);
+	background-position: 50% 50%;
+	margin: 0 auto;
+	padding: 5px 10px;
+	text-align: left;
+	width: 740px;
+	
+	box-shadow: 0px 0px 3px #888;
+	-moz-box-shadow: 0px 0px 3px #888;
+	-webkit-box-shadow: 0px 0px 3px #888;
+}
+#timeline ul {
+	margin-top: 8px;
+}
+#timeline li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 5px;
+	text-align: center;
+	width: 48px;
+}
+.story-details {
+	color: #777;
+	display: none;
+	font: 20px/24px UbuntuCondensedRegular;
+	margin-top: 20px;
+}
+.story-details h2 {
+	color: #C58;
+	font: 25px UbuntuCondensedRegular;
+	margin-bottom: 10px;
+}
+#comments {
+	background: #FCE;
+	padding: 130px 0;
+}
+.fb-comments {
+	background: #FFF;
+	border: 3px double #C58;
+	margin: 0 30px;
+	margin-top: 20px;
+	padding: 10px;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#footer {
+	color: #000;
+	font: 17px/21px UbuntuCondensedRegular;
+	padding-bottom: 100px;
+	padding-top: 20px;
+}
+#surah {
+	color: #000;
+	margin-top: 7px;
+}
+
+#image_buttom 
+{
+	background: transparent;
+	height: 25px;
+	left: 0;
+	padding: 25px 0;
+	position: fixed;
+	top: 450px;
+	width: 100%;
+	text-align:right;
+	z-index: 1;
+}
+
+#content
+{
+	background-image:url(../img/ernadika4.jpg) !important;
+	background-size: 100% 100%;
+}
